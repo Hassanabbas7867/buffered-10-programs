@@ -1,14 +1,12 @@
-
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class Bufferadd {
+class bufferedadd {
     public static void main(String args[]) throws IOException
     {
 
-        int num1,num2, sum;
+        int num1, num2, sum;
 
         InputStreamReader is = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(is);
